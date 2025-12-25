@@ -1,3 +1,13 @@
+#Authour : velan
+#Purpose : Get Detail from Student mark from tnserver 
+#Date : once-up-a-time (*now 25-Dec-25 at 10.45)
+
+#Algorithm
+#   1.get (Student Id, Dob_datasheet) as Input
+#   2.process (Requests Module in post) 
+#   3.show (Display Post Request logs) -> Store as txtFile
+
+
 from requests import post, exceptions
 from bs4 import BeautifulSoup 
 from datetime import datetime, timedelta
